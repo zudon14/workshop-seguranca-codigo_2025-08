@@ -20,3 +20,29 @@ https://baconipsum.com/api/?type=meat-and-filler
 
 Nosso cluster de testes foi criado via kind, um emulador de Kubernetes muito útil para testes:
 https://kind.sigs.k8s.io/
+
+---
+
+### Corrigindo problemas com o arquivo YAML do Kubernetes
+
+Versão do arquivo com problemas:
+
+```yaml
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: exemplo-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: exemplo
+        image: busybox
+        command: ["echo", "Hello Kubernetes Job!"]
+      restartPolicy: Never
+```
+
+
+Definir no arquivo YAML () a configuraçallowPrivilegeEscalation = false
+
+Referência sobre este tópico: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
