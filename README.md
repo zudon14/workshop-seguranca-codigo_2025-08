@@ -4,3 +4,7 @@ Conteúdos do Workshop "Implementando Segurança em Código na prática: de apli
 ## Implementando Segurança em Código na prática: de aplicações à infraestrutura com GitHub Actions!
 
 Aprenda neste workshop como implementar soluções para análise de código em aplicações e em scripts de infraestrutura na prática, automatizando a execução destas checagens com o GitHub Actions, Linux e diversas ferramentas open source!
+
+A seguir estão as instruções passo a passo para a execução das atividades práticas.
+
+---
