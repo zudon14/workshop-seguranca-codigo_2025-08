@@ -7,6 +7,9 @@ Aprenda neste workshop como implementar soluções para análise de código em a
 
 A seguir estão as instruções passo a passo para a execução das atividades práticas.
 
+Referências utilizadas:
+- [Uploading a SARIF file to GitHub - GitHub Docs](https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/uploading-a-sarif-file-to-github)
+
 ---
 
 Para os testes com o Job que será publicado no cluster Kubernetes utilizamos uma das APIs públicas catalogadas em:
