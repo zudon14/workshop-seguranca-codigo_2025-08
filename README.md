@@ -17,3 +17,6 @@ https://baconipsum.com/json-api/
 
 Através do endpoint:
 https://baconipsum.com/api/?type=meat-and-filler
+
+Nosso cluster de testes foi criado via kind, um emulador de Kubernetes muito útil para testes:
+https://kind.sigs.k8s.io/
