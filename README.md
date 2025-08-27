@@ -42,7 +42,23 @@ spec:
       restartPolicy: Never
 ```
 
+Definir no arquivo YAML (**/.devops/job-teste.yaml**) a **configuraçallowPrivilegeEscalation = false**. Gravar as alterações e observar uma nova execução do workflow:
 
-Definir no arquivo YAML () a configuraçallowPrivilegeEscalation = false
+```yaml
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: exemplo-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: exemplo
+        image: busybox
+        command: ["echo", "Hello Kubernetes Job!"]
+        securityContext:
+          allowPrivilegeEscalation: false
+      restartPolicy: Never
+```
 
 Referência sobre este tópico: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
