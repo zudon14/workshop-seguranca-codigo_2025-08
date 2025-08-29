@@ -322,7 +322,59 @@ Remover no arquivo YAML (**/src/appsettings.json**) a configuração **"ApiKey":
 
 Gravar as alterações e observar uma nova execução do workflow.
 
-### 5. Corrigindo problemas no arquivo YAML do Kubernetes
+
+---
+
+### 5. Corrigindo problemas no arquivo Dockerfile
+
+Versão do arquivo com problemas:
+
+```yaml
+FROM mcr.microsoft.com/dotnet/sdk:latest AS build-env
+WORKDIR /app
+
+# Copiar csproj e restaurar dependencias
+COPY *.csproj ./
+RUN dotnet restore
+
+# Build da aplicacao
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+# Build da imagem
+FROM mcr.microsoft.com/dotnet/runtime:latest
+WORKDIR /app
+COPY --from=build-env /app/out .
+ENTRYPOINT ["dotnet", "ConsoleAppJobHttpRequest.dll"]
+
+```
+
+Versão corrigida:
+
+```yaml
+FROM mcr.microsoft.com/dotnet/sdk:9.0.304 AS build-env
+WORKDIR /app
+
+# Copiar csproj e restaurar dependencias
+COPY *.csproj ./
+RUN dotnet restore
+
+# Build da aplicacao
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+# Build da imagem
+FROM mcr.microsoft.com/dotnet/runtime:9.0.8
+WORKDIR /app
+COPY --from=build-env /app/out .
+ENTRYPOINT ["dotnet", "ConsoleAppJobHttpRequest.dll"]
+```
+
+Executar novamente.
+
+---
+
+### 6. Corrigindo problemas no arquivo YAML do Kubernetes
 
 Versão do arquivo com problemas:
 
@@ -374,5 +426,3 @@ spec:
 Gravar as alterações e observar uma nova execução do workflow.
 
 Referência sobre este tópico: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
-
----
