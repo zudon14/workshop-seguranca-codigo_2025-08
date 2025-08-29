@@ -314,9 +314,13 @@ Versão do arquivo com problemas:
 
 Remover no arquivo YAML (**/src/appsettings.json**) a configuração **"ApiKey": "fzlDCP8cs60O"**.
 
+```yaml
+{
+    "EndpointRequest": "https://baconipsum.com/api/?type=meat-and-filler"
+}
+```
 
-Gravar as alterações e observar uma nova execução do workflow:
-
+Gravar as alterações e observar uma nova execução do workflow.
 
 ### 5. Corrigindo problemas no arquivo YAML do Kubernetes
 
@@ -332,12 +336,14 @@ spec:
     spec:
       containers:
       - name: exemplo
-        image: busybox
-        command: ["echo", "Hello Kubernetes Job!"]
+        image: workshop/job-httprequest:#{GITHUB_RUN_NUMBER}#
+        env:
+        - name: EndpointNotificacao
+          value: "https://baconipsum.com/api/?type=all-meat"
       restartPolicy: Never
 ```
 
-Definir no arquivo YAML (**/.devops/job-teste.yaml**) a configuração **allowPrivilegeEscalation = false**. Gravar as alterações e observar uma nova execução do workflow:
+Alterar o arquivo YAML (**/devops/job-teste.yaml**) incluindo as configurações **allowPrivilegeEscalation** e **resources** (limites para execução).
 
 ```yaml
 apiVersion: batch/v1
@@ -349,11 +355,24 @@ spec:
     spec:
       containers:
       - name: exemplo
-        image: busybox
-        command: ["echo", "Hello Kubernetes Job!"]
+        image: workshop/job-httprequest:#{GITHUB_RUN_NUMBER}#
+        env:
+        - name: EndpointNotificacao
+          value: "https://baconipsum.com/api/?type=all-meat"
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "50m"
+          limits:
+            memory: "128Mi"
+            cpu: "100m"
         securityContext:
           allowPrivilegeEscalation: false
       restartPolicy: Never
 ```
 
+Gravar as alterações e observar uma nova execução do workflow.
+
 Referência sobre este tópico: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+
+---
