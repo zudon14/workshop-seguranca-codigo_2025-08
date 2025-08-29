@@ -301,6 +301,23 @@ jobs:
           kubectl logs job.batch/exemplo-job -n integrationtests
 ```
 
+### 4. Corrigindo problemas no arquivo appsettings.json
+
+Versão do arquivo com problemas:
+
+```yaml
+{
+    "EndpointRequest": "https://baconipsum.com/api/?type=meat-and-filler",
+    "ApiKey": "fzlDCP8cs60O"
+}
+```
+
+Remover no arquivo YAML (**/src/appsettings.json**) a configuração **"ApiKey": "fzlDCP8cs60O"**.
+
+
+Gravar as alterações e observar uma nova execução do workflow:
+
+
 ### 5. Corrigindo problemas no arquivo YAML do Kubernetes
 
 Versão do arquivo com problemas:
