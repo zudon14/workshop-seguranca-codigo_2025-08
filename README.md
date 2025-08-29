@@ -8,6 +8,9 @@ Aprenda neste workshop como implementar soluções para análise de código em a
 A seguir estão as instruções passo a passo para a execução das atividades práticas.
 
 Referências utilizadas:
+- [Gitleaks](https://github.com/gitleaks/gitleaks)
+- [Checkov - CLI Command Reference](https://www.checkov.io/2.Basics/CLI%20Command%20Reference.html)
+- [KICS - CLI Command Reference](https://docs.kics.io/latest/commands/)
 - [Uploading a SARIF file to GitHub - GitHub Docs](https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/uploading-a-sarif-file-to-github)
 
 ---
