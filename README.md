@@ -38,7 +38,7 @@ Em seguida crie sua conta no GitHub usando um e-mail e nome válidos, com o link
 
 ### 1. Preparando o repositório para estudos
 
-Clone este repositório em sua conta pessoal.
+Faça um fork deste repositório em sua conta pessoal.
 
 ### 2. Criando a automação
 
