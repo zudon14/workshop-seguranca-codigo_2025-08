@@ -40,6 +40,8 @@ Em seguida crie sua conta no GitHub usando um e-mail e nome válidos, com o link
 
 Faça um fork deste repositório em sua conta pessoal.
 
+![Fork do projeto](img/01-fork.png)
+
 ### 2. Criando a automação
 
 Crie um novo workflow 
