@@ -308,11 +308,11 @@ Versão do arquivo com problemas:
 ```yaml
 {
     "EndpointRequest": "https://baconipsum.com/api/?type=meat-and-filler",
-    "ApiKey": "fzlDCP8cs60O"
+    "ApiKey": "************"
 }
 ```
 
-Remover no arquivo YAML (**/src/appsettings.json**) a configuração **"ApiKey": "fzlDCP8cs60O"**.
+Remover no arquivo YAML (**/src/appsettings.json**) a configuração **"ApiKey"** e seu respectivo valor.
 
 ```yaml
 {
