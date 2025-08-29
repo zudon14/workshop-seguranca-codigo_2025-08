@@ -26,7 +26,7 @@ https://kind.sigs.k8s.io/
 
 ---
 
-### Corrigindo problemas no arquivo YAML do Kubernetes que leva à falha de execução do workflow
+### Corrigindo problemas no arquivo YAML do Kubernetes
 
 Versão do arquivo com problemas:
 
