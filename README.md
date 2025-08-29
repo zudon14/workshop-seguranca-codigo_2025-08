@@ -13,8 +13,6 @@ Referências utilizadas:
 - [KICS - CLI Command Reference](https://docs.kics.io/latest/commands/)
 - [Uploading a SARIF file to GitHub - GitHub Docs](https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/uploading-a-sarif-file-to-github)
 
----
-
 Para os testes com o Job que será publicado no cluster Kubernetes utilizamos uma das APIs públicas catalogadas em:
 https://github.com/public-apis/public-apis
 
@@ -26,6 +24,15 @@ https://baconipsum.com/api/?type=meat-and-filler
 
 Nosso cluster de testes foi criado via kind, um emulador de Kubernetes muito útil para testes:
 https://kind.sigs.k8s.io/
+
+---
+
+### 0. Pré-requisitos
+
+Caso ainda não tenha uma conta no GitHub, comece instalando um aplicativo de One-Time Password (OTP) em seu celular. Recomendamos o Microsoft Authenticator, com versões para Android e iOS: https://www.microsoft.com/pt-br/security/mobile-authenticator-app
+
+Em seguida crie sua conta no GitHub usando um e-mail e nome válidos, com o link a seguir trazendo algumas instruções úteis e lembrando da necessidade se habilitar o MFA (autenticação multifator): https://docs.github.com/pt/get-started/start-your-journey/creating-an-account-on-github
+
 
 ---
 
