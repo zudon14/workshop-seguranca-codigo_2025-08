@@ -36,6 +36,16 @@ Em seguida crie sua conta no GitHub usando um e-mail e nome válidos, com o link
 
 ---
 
+### 1. Preparando o repositório para estudos
+
+Clone este repositório em sua conta pessoal.
+
+### 2. Criando a automação
+
+Crie um novo workflow 
+
+Faça se achar necessário algumas alterações utilizando código bash e conclua isto com um commit. Seu workflow irá executar...
+
 ### Corrigindo problemas no arquivo YAML do Kubernetes
 
 Versão do arquivo com problemas:
