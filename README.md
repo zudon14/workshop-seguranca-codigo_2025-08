@@ -45,7 +45,7 @@ spec:
       restartPolicy: Never
 ```
 
-Definir no arquivo YAML (**/.devops/job-teste.yaml**) a **configuraçallowPrivilegeEscalation = false**. Gravar as alterações e observar uma nova execução do workflow:
+Definir no arquivo YAML (**/.devops/job-teste.yaml**) a configuração **allowPrivilegeEscalation = false**. Gravar as alterações e observar uma nova execução do workflow:
 
 ```yaml
 apiVersion: batch/v1
