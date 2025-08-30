@@ -315,12 +315,13 @@ O scan de secrets, Dockerfile e YAML do Kubernetes apresentará falhas:
 
 ![Workflow executando](img/04-workflow-erros.png)
 
-Parte dessas falhas pode ser observada em x > x > X:
+Parte dessas falhas pode ser observada em **Security > Code scanning**:
+
+![Security > Code scanning](img/05-security-code-scanning.png)
 
 E o restante estará indicado em um arquivo .pdf compactado como um Artifact:
 
-Na imagem a seguir temos uma visualização deste arquivo .pdf:
-
+![PDF compactado como Artifact](img/06-artifact-pdf.png)
 
 ### 4. Corrigindo problemas no arquivo appsettings.json
 
