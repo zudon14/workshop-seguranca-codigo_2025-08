@@ -42,6 +42,8 @@ Faça um fork deste repositório em sua conta pessoal.
 
 ![Fork do projeto](img/01-fork.png)
 
+---
+
 ### 2. Criando a automação
 
 Crie um novo workflow. Uma boa opção para isto é utilizar o template **Simple workflow**:
@@ -51,6 +53,8 @@ Crie um novo workflow. Uma boa opção para isto é utilizar o template **Simple
 Faça se achar necessário algumas alterações utilizando código bash e conclua isto com um commit. Seu workflow irá iniciar uma execução automática, sendo possível acompanhar o processamento do mesmo em tempo real:
 
 ![Workflow executando](img/03-workflow-executando.png)
+
+---
 
 ### 3. Acertando o workflow
 
