@@ -7,6 +7,7 @@ Aprenda neste workshop como implementar soluções para análise de código em a
 
 Acesse este conteúdo via QRCode e também nos apoiem 🙌, deixando um star ⭐ no repositório do GitHub:
 
+![QRCode Conteúdo](img/qrcode-readme.png)
 
 Instrutores (links apontando para o LinkedIn, nos adicionem lá 😉):
 - [Renato Groffe](https://www.linkedin.com/in/renatogroffe/)
