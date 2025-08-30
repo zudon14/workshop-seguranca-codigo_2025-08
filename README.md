@@ -11,8 +11,8 @@ Acesse este conteúdo via QRCode e também nos apoiem 🙌, deixando um star ⭐
 
 Instrutores (links apontando para o LinkedIn, nos adicionem lá 😉):
 - Renato Groffe [LinkedIn](https://www.linkedin.com/in/renatogroffe/) :: [GitHub](https://github.com/renatogroffe)
-- Diego Moreira Matos [LinkedIn](https://www.linkedin.com/in/digomatos/) :: [GitHub]()
-- Milton Camara [LinkedIn](https://www.linkedin.com/in/miltoncamara/) :: [GitHub]()
+- Diego Moreira Matos [LinkedIn](https://www.linkedin.com/in/digomatos/) :: [GitHub](https://github.com/digomatos)
+- Milton Camara [LinkedIn](https://www.linkedin.com/in/miltoncamara/) :: [GitHub](https://github.com/miltoncamara)
 
 Algumas de nossas comunidades técnicas (links para Meetup e YouTube):
 - [.NET São Paulo](https://www.meetup.com/dotnet-Sao-Paulo/)
