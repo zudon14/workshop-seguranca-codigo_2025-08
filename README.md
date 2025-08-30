@@ -343,6 +343,9 @@ E o restante estará indicado em um arquivo .pdf compactado como um Artifact:
 
 ![PDF compactado como Artifact](img/06-artifact-pdf.png)
 
+> **Nota:**  
+> A partir daqui não incluiremos mais prints, a fim de incentivar um maior engajamento com a realização das atividades práticas.
+
 ### 4. Corrigindo problemas no arquivo appsettings.json
 
 Versão do arquivo com problemas:
@@ -363,7 +366,6 @@ Remover no arquivo YAML (**/src/appsettings.json**) a configuração **"ApiKey"*
 ```
 
 Gravar as alterações e observar uma nova execução do workflow.
-
 
 ---
 
@@ -467,4 +469,18 @@ spec:
 
 Gravar as alterações e observar uma nova execução do workflow.
 
-Referências sobre estes tópicos: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+Referências sobre estes tópicos:
+- https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+- https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+
+---
+
+### 7. Conclusão
+
+Se tudo der certo, teremos uma execução com sinal verde 🟢 em todos os estágios:
+
+
+E uma resposta da API falando sobre bacon e outras iguarias 😂:
+
+> **Nota:**  
+> Pedimos desculpas a quem não curte bacon. Você pode até mudar no YAML de Kubernetes para outra API! 😂
