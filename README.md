@@ -22,13 +22,16 @@ Algumas de nossas comunidades técnicas (links para Meetup e YouTube):
 - [Coding Night](www.youtube.com/codingnight)
 
 Referências utilizadas:
-- [GitHub Actions]()
+- [GitHub Actions](https://docs.github.com/en/actions)
+- [APIsec University - Certificações online gratuitas](https://www.apisecuniversity.com/)
 - [Gitleaks](https://github.com/gitleaks/gitleaks)
 - [Checkov - CLI Command Reference](https://www.checkov.io/2.Basics/CLI%20Command%20Reference.html)
 - [KICS - CLI Command Reference](https://docs.kics.io/latest/commands/)
 - [Uploading a SARIF file to GitHub - GitHub Docs](https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/uploading-a-sarif-file-to-github)
 
 A seguir estão as instruções passo a passo para a execução das atividades práticas.
+
+Na pasta **slides** estão outros materiais, que poderemos abordar durante o workshop havendo uma sobra de tempo.
 
 Para os testes com o Job que será publicado no cluster Kubernetes utilizamos uma das APIs públicas catalogadas em:
 https://github.com/public-apis/public-apis
