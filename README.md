@@ -311,6 +311,17 @@ jobs:
           kubectl logs job.batch/exemplo-job -n integrationtests
 ```
 
+O scan de secrets, Dockerfile e YAML do Kubernetes apresentará falhas:
+
+![Workflow executando](img/04-workflow-erros.png)
+
+Parte dessas falhas pode ser observada em x > x > X:
+
+E o restante estará indicado em um arquivo .pdf compactado como um Artifact:
+
+Na imagem a seguir temos uma visualização deste arquivo .pdf:
+
+
 ### 4. Corrigindo problemas no arquivo appsettings.json
 
 Versão do arquivo com problemas:
