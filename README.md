@@ -8,21 +8,18 @@ Aprenda neste workshop como implementar soluções para análise de código em a
 Acesse este conteúdo via QRCode e também nos apoiem 🙌, deixando um star ⭐ no repositório do GitHub:
 
 
-
 Instrutores (links apontando para o LinkedIn, nos adicionem lá 😉):
-- [Renato Groffe]()
-- [Diego Moreira Matos]()
-- [Milton Camara]()
+- [Renato Groffe](https://www.linkedin.com/in/renatogroffe/)
+- [Diego Moreira Matos](https://www.linkedin.com/in/digomatos/)
+- [Milton Camara](https://www.linkedin.com/in/miltoncamara/)
 
 Algumas de nossas comunidades técnicas (links para Meetup e YouTube):
-- [.NET São Paulo]()
-- [Azure Talks]()
-- [DevOps Professionals]()
-- [Canal .NET]()
-- [Azure na Prática]()
-- [Coding Night]()
-
-A seguir estão as instruções passo a passo para a execução das atividades práticas.
+- [.NET São Paulo](https://www.meetup.com/dotnet-Sao-Paulo/)
+- [Azure Talks](https://www.meetup.com/azure-talks/)
+- [DevOps Professionals](https://www.meetup.com/DevOps-Professionals/)
+- [Canal .NET](https://www.youtube.com/canaldotnet)
+- [Azure na Prática](www.youtube.com/azurenapratica)
+- [Coding Night](www.youtube.com/codingnight)
 
 Referências utilizadas:
 - [GitHub Actions]()
@@ -30,6 +27,8 @@ Referências utilizadas:
 - [Checkov - CLI Command Reference](https://www.checkov.io/2.Basics/CLI%20Command%20Reference.html)
 - [KICS - CLI Command Reference](https://docs.kics.io/latest/commands/)
 - [Uploading a SARIF file to GitHub - GitHub Docs](https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/uploading-a-sarif-file-to-github)
+
+A seguir estão as instruções passo a passo para a execução das atividades práticas.
 
 Para os testes com o Job que será publicado no cluster Kubernetes utilizamos uma das APIs públicas catalogadas em:
 https://github.com/public-apis/public-apis
