@@ -10,9 +10,9 @@ Acesse este conteúdo via QRCode e também nos apoiem 🙌, deixando um star ⭐
 ![QRCode Conteúdo](img/qrcode-readme.png)
 
 Instrutores (links apontando para o LinkedIn, nos adicionem lá 😉):
-- [Renato Groffe](https://www.linkedin.com/in/renatogroffe/)
-- [Diego Moreira Matos](https://www.linkedin.com/in/digomatos/)
-- [Milton Camara](https://www.linkedin.com/in/miltoncamara/)
+- Renato Groffe [LinkedIn](https://www.linkedin.com/in/renatogroffe/) :: [GitHub](https://github.com/renatogroffe)
+- Diego Moreira Matos [LinkedIn](https://www.linkedin.com/in/digomatos/) :: [GitHub]()
+- Milton Camara [LinkedIn](https://www.linkedin.com/in/miltoncamara/) :: [GitHub]()
 
 Algumas de nossas comunidades técnicas (links para Meetup e YouTube):
 - [.NET São Paulo](https://www.meetup.com/dotnet-Sao-Paulo/)
