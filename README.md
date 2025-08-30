@@ -5,7 +5,7 @@ Conteúdos do Workshop "Implementando Segurança em Código na prática: de apli
 
 Aprenda neste workshop como implementar soluções para análise de código em aplicações e em scripts de infraestrutura na prática, automatizando a execução destas checagens com o GitHub Actions, Linux e diversas ferramentas open source!
 
-Acesse este conteúdo via QRCode:
+Acesse este conteúdo via QRCode e também nos apoiem 🙌, deixando um star ⭐ no repositório do GitHub:
 
 
 
