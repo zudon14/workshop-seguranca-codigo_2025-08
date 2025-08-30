@@ -467,4 +467,4 @@ spec:
 
 Gravar as alterações e observar uma nova execução do workflow.
 
-Referência sobre este tópico: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+Referências sobre estes tópicos: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
