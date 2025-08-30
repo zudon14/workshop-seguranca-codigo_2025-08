@@ -5,9 +5,27 @@ Conteúdos do Workshop "Implementando Segurança em Código na prática: de apli
 
 Aprenda neste workshop como implementar soluções para análise de código em aplicações e em scripts de infraestrutura na prática, automatizando a execução destas checagens com o GitHub Actions, Linux e diversas ferramentas open source!
 
+Acesse este conteúdo via QRCode:
+
+
+
+Instrutores (links apontando para o LinkedIn, nos adicionem lá 😉):
+- [Renato Groffe]()
+- [Diego Moreira Matos]()
+- [Milton Camara]()
+
+Algumas de nossas comunidades técnicas (links para Meetup e YouTube):
+- [.NET São Paulo]()
+- [Azure Talks]()
+- [DevOps Professionals]()
+- [Canal .NET]()
+- [Azure na Prática]()
+- [Coding Night]()
+
 A seguir estão as instruções passo a passo para a execução das atividades práticas.
 
 Referências utilizadas:
+- [GitHub Actions]()
 - [Gitleaks](https://github.com/gitleaks/gitleaks)
 - [Checkov - CLI Command Reference](https://www.checkov.io/2.Basics/CLI%20Command%20Reference.html)
 - [KICS - CLI Command Reference](https://docs.kics.io/latest/commands/)
