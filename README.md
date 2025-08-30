@@ -477,10 +477,9 @@ Referências sobre estes tópicos:
 
 ### 7. Conclusão
 
-Se tudo der certo, teremos uma execução com sinal verde 🟢 em todos os estágios:
+Se tudo der certo, teremos uma execução com sinal verde 🟢 em todos os estágios... E uma resposta da API falando sobre bacon e outras iguarias 😂:
 
-
-E uma resposta da API falando sobre bacon e outras iguarias 😂:
+![Exercício concluído](img/07-exercicio-concluido.png)
 
 > **Nota:**  
 > Pedimos desculpas a quem não curte bacon. Você pode até mudar no YAML de Kubernetes para outra API! 😂
